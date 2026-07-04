@@ -4,8 +4,8 @@
 
 **Cybersecurity Specialist · SOC Analyst · Software Engineer**
 
-[![Live Site](https://img.shields.io/badge/Live%20Site-View%20Portfolio-0E6E63?style=for-the-badge)](https://your-site.onrender.com)
-[![Resume](https://img.shields.io/badge/Resume-View%20PDF-33495C?style=for-the-badge)](https://drive.google.com/file/d/YOUR_FILE_ID/view)
+[![Live Site](https://img.shields.io/badge/Live%20Site-View%20Portfolio-0E6E63?style=for-the-badge)](https://zainab-nooh.onrender.com/)
+[![Resume](https://img.shields.io/badge/Resume-View%20PDF-33495C?style=for-the-badge)](https://drive.google.com/file/d/1a_RI9CV_i48g7-3HihH4BzEk1s9xAHlN/view?usp=drive_link)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zainab-h-nooh/)
 
 </div>
@@ -48,7 +48,7 @@ Each case study covers: the objective, my specific contribution, key results, te
 
 </details>
 
-> **Note:** links above open the file directly on GitHub (source view). For the fully styled, live version of any case study, visit the [live site](https://your-site.onrender.com) and click through from there — GitHub doesn't render HTML/CSS in-browser.
+> **Note:** links above open the file directly on GitHub (source view). For the fully styled, live version of any case study, visit the [live site](https://zainab-nooh.onrender.com/) and click through from there — GitHub doesn't render HTML/CSS in-browser.
 
 ## Tech Stack
 
@@ -73,8 +73,8 @@ Plain HTML/CSS/JS — no framework, no build step, deployed as a static site.
 ## Running Locally
 
 ```bash
-git clone https://github.com/zainab-nooh/cybersecurity-portfolio.git
-cd cybersecurity-portfolio
+git clone https://github.com/zainab-nooh/zainab-nooh-portfolio
+cd zainab-nooh-portfolio
 python3 -m http.server 8000
 ```
 Visit `http://localhost:8000`.
@@ -87,4 +87,4 @@ Hosted free on [Render](https://render.com) as a Static Site — build command e
 
 Open to cybersecurity CoOp / internship opportunities starting **September 2026**.
 
-📧 [zain3b.nooh@gmail.com](mailto:zain3b.nooh@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/zainab-h-nooh/) · 💻 [GitHub](https://github.com/zainab-nooh)# zainab-nooh-portfolio
+📧 [zain3b.nooh@gmail.com](mailto:zain3b.nooh@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/zainab-h-nooh/) · 💻 [GitHub](https://github.com/zainab-nooh)
