@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-Enabled Intrusion Detection System — Zainab Nooh</title>
+<meta name="description" content="Built an end-to-end ML pipeline that turns raw packet captures into a real-time classifier detecting brute force, port scans, and HTTP floods.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="dot"></span>ZAINAB NOOH</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#featured">Cybersecurity Work</a>
+      <a href="../index.html#other">Other Projects</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#certifications">Certifications</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">MENU</button>
+  </div>
+</header>
+
+<section class="cs-hero">
+  <div class="wrap">
+    <div class="cs-tagrow">
+      <span class="tag tag-context">Academic — IT8520, Digital Transformation</span>
+      <span class="tag tag-role">Security Data Engineer & ML Specialist, Co-Author</span>
+      <span class="tag">DET-02</span>
+    </div>
+    <h1>AI-Enabled Intrusion Detection System</h1>
+    <p class="cs-summary">Built an end-to-end ML pipeline that turns raw packet captures into a real-time classifier detecting brute force, port scans, and HTTP floods.</p>
+
+    <dl class="cs-meta-grid">
+      <div><dt>Type</dt><dd>Machine Learning / Network Simulation</dd></div>
+      <div><dt>Course / Track</dt><dd>IT8520 — Digital Transformation</dd></div>
+      <div><dt>Team</dt><dd>Group project</dd></div>
+      <div><dt>Evidence base</dt><dd>Topology diagrams, correlation heatmaps, confusion matrices</dd></div>
+    </dl>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="cs-body">
+    <main>
+
+      <div class="cs-block">
+        <span class="eyebrow">Objective</span>
+        <h2>What the project set out to do</h2>
+        <p>Prove that a lightweight, well-engineered ML classifier can reliably tell live malicious traffic apart from normal traffic in a simulated enterprise network — without the false-positive noise that makes most IDS tools unusable in practice.</p>
+      </div>
+
+      <div class="cs-block">
+        <span class="eyebrow">My Contribution</span>
+        <h2>What I actually built</h2>
+        <p>I owned the full data-to-model pipeline. I built an isolated host-only virtual network to ethically generate over 15,000 malicious payloads across FTP brute force, TCP SYN scans, and HTTP floods, then converted the raw .pcap captures into flow datasets. I engineered 10 custom security-focused features (including Bwd_Dominance and SYN_Only_Flow), used Variance Inflation Factor pruning to eliminate multi-collinearity, and benchmarked an ensemble of models before selecting and tuning LightGBM as the production classifier.</p>
+      </div>
+
+      <div class="cs-block">
+        <span class="eyebrow">Evidence</span>
+        <h2>Documentation on file</h2>
+        <p class="section-note" style="margin-bottom: 1em;">Includes network topology diagrams (192.168.101.0/24), correlation heatmaps, feature importance graphs, confusion matrices across 7 benchmarked models, and real-time IDS tracking readouts.</p>
+        <div class="evidence-grid">
+          <div class="evidence-slot">
+            <img src="../images/ai-ids/network-topology.png">
+            <span class="es-label">Network Topology</span>
+          </div>
+          <div class="evidence-slot">
+            <img src="../images/ai-ids/execution-traffic-capture.png">
+            <span class="es-label">Data Generation and Collection</span>
+          </div>
+          <div class="evidence-slot">
+            <img src="../images/ai-ids/class-distribution.png">
+            <span class="es-label">Class Distribution for Data Collection</span>
+          </div>
+          <div class="evidence-slot">
+            <img src="../images/ai-ids/httpflood-traffic-capture.png">
+            <span class="es-label">Live IDS readout</span>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <aside class="sidebar">
+      <div class="cs-block">
+        <span class="eyebrow">Key Result</span>
+        <div class="stat-block">
+          <div class="stat"><span class="num">0.9519</span><span class="label">peak weighted F1-score</span></div>
+          <div class="stat"><span class="num"><0.003</span><span class="label">train/test accuracy gap — no overfitting</span></div>
+        </div>
+      </div>
+
+      <div class="cs-block">
+        <span class="eyebrow">Tech Stack</span>
+        <div class="tool-list">
+          <span class="chip">Python</span>
+          <span class="chip">Pandas</span>
+          <span class="chip">Scikit-learn</span>
+          <span class="chip">LightGBM</span>
+          <span class="chip">XGBoost</span>
+          <span class="chip">Wireshark</span>
+          <span class="chip">CICFlowMeter</span>
+          <span class="chip">VirtualBox</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="cs-nav">
+    <a href="threat-intel-soar.html">&larr; SOC with Threat Intelligence & SOAR</a>
+    <a href="../index.html#featured">All projects</a>
+    <a href="grc-eramba.html">Centralized GRC Implementation — National Bank of Bahrain &rarr;</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <span class="footer-note">Zainab Nooh — Cybersecurity, Class of 2027</span>
+    <div class="footer-links">
+      <a href="mailto:zain3b.nooh@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/zainab-h-nooh/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/zainab-nooh" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

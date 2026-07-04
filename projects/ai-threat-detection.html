@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-Driven Network Threat Detection & Anomaly Framework — Zainab Nooh</title>
+<meta name="description" content="Built a hybrid supervised + unsupervised detection framework across 21,185 flows, catching both known attack types and zero-day-style anomalies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="dot"></span>ZAINAB NOOH</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#featured">Cybersecurity Work</a>
+      <a href="../index.html#other">Other Projects</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#certifications">Certifications</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">MENU</button>
+  </div>
+</header>
+
+<section class="cs-hero">
+  <div class="wrap">
+    <div class="cs-tagrow">
+      <span class="tag tag-context">Academic — Artificial Intelligence course</span>
+      <span class="tag tag-role">AI Security Research Engineer, Group Collaborator</span>
+      <span class="tag">DET-04</span>
+    </div>
+    <h1>AI-Driven Network Threat Detection & Anomaly Framework</h1>
+    <p class="cs-summary">Built a hybrid supervised + unsupervised detection framework across 21,185 flows, catching both known attack types and zero-day-style anomalies.</p>
+
+    <dl class="cs-meta-grid">
+      <div><dt>Type</dt><dd>Machine Learning / Behavioral Profiling</dd></div>
+      <div><dt>Course / Track</dt><dd>Artificial Intelligence</dd></div>
+      <div><dt>Team</dt><dd>Group project</dd></div>
+      <div><dt>Evidence base</dt><dd>Diagnostics, correlation matrices, PCA/cluster plots</dd></div>
+    </dl>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="cs-body">
+    <main>
+
+      <div class="cs-block">
+        <span class="eyebrow">Objective</span>
+        <h2>What the project set out to do</h2>
+        <p>Go beyond classifying known attacks — build a framework that can also flag statistically anomalous traffic it's never seen labeled before, using unsupervised learning alongside a supervised classifier.</p>
+      </div>
+
+      <div class="cs-block">
+        <span class="eyebrow">My Contribution</span>
+        <h2>What I actually built</h2>
+        <p>I co-developed the preprocessing, multi-model evaluation, and interpretability pipelines across 21,185 network flow entries. I engineered a clean feature space, stripping non-predictive identifiers and pruning 25 redundant dimensions down to 54 critical behavioral fields via correlation analysis. I set up a balanced multi-class XGBoost classifier to counter class imbalance, and built Isolation Forest and K-Means pipelines to detect statistical anomalies and profile traffic behavior without relying on labels.</p>
+      </div>
+
+      <div class="cs-block">
+        <span class="eyebrow">Evidence</span>
+        <h2>Documentation on file</h2>
+        <p class="section-note" style="margin-bottom: 1em;">Dataframe diagnostics, Pearson correlation pruning matrices, training/validation learning curves, 10-class confusion matrices, feature permutation importance charts, and 2D PCA cluster plots (K=6).</p>
+        <div class="evidence-grid">
+          <div class="evidence-slot">
+              <img src="../images/ai-threat-detection/model-training-xgboost.png">
+            <span class="es-label">XGBOost Training Model</span>
+          </div>
+          <div class="evidence-slot">
+            <img src="../images/ai-threat-detection/confusion-matrix.png">
+            <span class="es-label">10-class confusion matrix</span>
+          </div>
+          <div class="evidence-slot">
+            <img src="../images/ai-threat-detection/pca.png">
+            <span class="es-label">PCA cluster scatter</span>
+          </div>
+          <div class="evidence-slot">
+            <img src="../images/ai-threat-detection/top-features.png">
+            <span class="es-label">Feature importance chart</span>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <aside class="sidebar">
+      <div class="cs-block">
+        <span class="eyebrow">Key Result</span>
+        <div class="stat-block">
+          <div class="stat"><span class="num">81.26%</span><span class="label">XGBoost test accuracy, F1 0.814</span></div>
+          <div class="stat"><span class="num">0.5893</span><span class="label">Isolation Forest Silhouette Score</span></div>
+        </div>
+      </div>
+
+      <div class="cs-block">
+        <span class="eyebrow">Tech Stack</span>
+        <div class="tool-list">
+          <span class="chip">Python</span>
+          <span class="chip">XGBoost</span>
+          <span class="chip">Isolation Forest</span>
+          <span class="chip">K-Means</span>
+          <span class="chip">PCA</span>
+          <span class="chip">Scikit-learn</span>
+          <span class="chip">Matplotlib</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="cs-nav">
+    <a href="grc-eramba.html">&larr; Centralized GRC Implementation — National Bank of Bahrain</a>
+    <a href="../index.html#featured">All projects</a>
+    <a href="pentest-simulation.html">Full-Cycle Penetration Testing Simulation &rarr;</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <span class="footer-note">Zainab Nooh — Cybersecurity, Class of 2027</span>
+    <div class="footer-links">
+      <a href="mailto:zain3b.nooh@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/zainab-h-nooh/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/zainab-nooh" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

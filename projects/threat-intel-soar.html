@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOC with Threat Intelligence & SOAR — Zainab Nooh</title>
+<meta name="description" content="Designed and automated a SOC where Wazuh alerts are enriched against live threat intel feeds and routed to analysts with zero manual lookup.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="dot"></span>ZAINAB NOOH</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#featured">Cybersecurity Work</a>
+      <a href="../index.html#other">Other Projects</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#certifications">Certifications</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">MENU</button>
+  </div>
+</header>
+
+<section class="cs-hero">
+  <div class="wrap">
+    <div class="cs-tagrow">
+      <span class="tag tag-context">Academic — IT8510, Threat Hunting & Intel</span>
+      <span class="tag tag-role">Security Automation Engineer, Co-Author</span>
+      <span class="tag">SOC-01</span>
+    </div>
+    <h1>SOC with Threat Intelligence & SOAR</h1>
+    <p class="cs-summary">Designed and automated a SOC where Wazuh alerts are enriched against live threat intel feeds and routed to analysts with zero manual lookup.</p>
+
+    <dl class="cs-meta-grid">
+      <div><dt>Type</dt><dd>SOC Lab / Security Automation & Orchestration</dd></div>
+      <div><dt>Course / Track</dt><dd>IT8510 — Threat Intelligence & Threat Hunting</dd></div>
+      <div><dt>Team</dt><dd>Group project</dd></div>
+      <div><dt>Evidence base</dt><dd>Workflow canvases, webhook configs, enrichment outputs</dd></div>
+    </dl>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="cs-body">
+    <main>
+
+      <div class="cs-block">
+        <span class="eyebrow">Objective</span>
+        <h2>What the project set out to do</h2>
+        <p>Build a working Security Operations Center that doesn't just collect alerts, but automates the triage work analysts normally do by hand — pulling context on indicators the moment an alert fires, instead of hours later.</p>
+      </div>
+
+      <div class="cs-block">
+        <span class="eyebrow">My Contribution</span>
+        <h2>What I actually built</h2>
+        <p>I owned the SOAR engineering end to end using Shuffle. I built the automation playbooks that ingest alerts directly from Wazuh via dynamic webhooks, wrote the logic to pull indicator data — file hashes, suspicious IPs — out of raw alert payloads, and orchestrated API integrations against VirusTotal and AbuseIPDB to enrich those indicators automatically. I also built the routing logic that turns a raw SIEM alert into a contextual, intel-backed notification for an analyst.</p>
+      </div>
+
+      <div class="cs-block">
+        <span class="eyebrow">Evidence</span>
+        <h2>Documentation on file</h2>
+        <p class="section-note" style="margin-bottom: 1em;">Documented via Shuffle workflow canvases (step-by-step logic gates, webhook triggers, API auth configs) and parsed threat intelligence outputs.</p>
+        <div class="evidence-grid">
+          <div class="evidence-slot">
+            <img src="../images/threat-intel-soar/soc-arch.png">
+            <span class="es-label">SOC Architecture Design</span>
+          </div>
+          <div class="evidence-slot">
+             <img src="../images/threat-intel-soar/webhook-virustotal.png">
+            <span class="es-label">Webhook & API config</span>
+           
+          </div>
+          <div class="evidence-slot">
+            <img src="../images/threat-intel-soar/wazuh-fim-virustotal-delete.png">
+            <span class="es-label">Wazuh Detection and Deletion of a Harmful File </span>
+          </div>
+          <div class="evidence-slot">
+            <img src="../images/threat-intel-soar/misp-alert.png">
+            <span class="es-label">Wazuh alerts MISP File Detection</span>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <aside class="sidebar">
+      <div class="cs-block">
+        <span class="eyebrow">Key Result</span>
+        <div class="stat-block">
+          <div class="stat"><span class="num">0</span><span class="label">manual lookups required per alert</span></div>
+          <div class="stat"><span class="num">3</span><span class="label">threat intel feeds integrated (VirusTotal, AbuseIPDB, MISP)</span></div>
+        </div>
+      </div>
+
+      <div class="cs-block">
+        <span class="eyebrow">Tech Stack</span>
+        <div class="tool-list">
+          <span class="chip">Shuffle SOAR</span>
+          <span class="chip">Wazuh SIEM/XDR</span>
+          <span class="chip">VirusTotal API</span>
+          <span class="chip">AbuseIPDB API</span>
+          <span class="chip">MISP</span>
+          <span class="chip">REST APIs</span>
+          <span class="chip">Python</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="cs-nav">
+    <a href="rotten-potatoes.html">&larr; Rotten Potatoes — Movie Discovery (1-Day Hackathon)</a>
+    <a href="../index.html#featured">All projects</a>
+    <a href="ai-ids.html">AI-Enabled Intrusion Detection System &rarr;</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <span class="footer-note">Zainab Nooh — Cybersecurity, Class of 2027</span>
+    <div class="footer-links">
+      <a href="mailto:zain3b.nooh@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/zainab-h-nooh/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/zainab-nooh" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
