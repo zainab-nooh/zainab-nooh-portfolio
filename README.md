@@ -2,7 +2,7 @@
 
 # Zainab Nooh — Cybersecurity Portfolio
 
-**Cybersecurity Specialist · SOC Analyst · Software Engineer**
+**Cybersecurity Specialist · SOC Analyst · AI Architecture · Software Engineer**
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-View%20Portfolio-0E6E63?style=for-the-badge)](https://zainab-nooh.onrender.com/)
 [![Resume](https://img.shields.io/badge/Resume-View%20PDF-33495C?style=for-the-badge)](https://drive.google.com/file/d/1bOR1UxDKiZlyOlr9pj3MC3_SzHA0wAHA/view?usp=sharing)
