@@ -14,7 +14,7 @@
 
 ## About
 
-Final-year Bachelor of ICT (Cybersecurity) student at Bahrain Polytechnic, seeking a cybersecurity CoOp / internship for **September 2026**. This repository is a static portfolio built to present full-cycle security work — SOC automation, machine-learning intrusion detection, GRC compliance mapping, penetration testing, and enterprise network defense — as readable case studies rather than raw lab reports.
+Final-year Bachelor of ICT (Cybersecurity) student at Bahrain Polytechnic. This repository is a static portfolio built to present full-cycle security work — SOC automation, machine-learning intrusion detection, GRC compliance mapping, penetration testing, and enterprise network defense — as readable case studies rather than raw lab reports.
 
 Each case study covers: the objective, my specific contribution, key results, tech stack, and supporting evidence (screenshots, diagrams, CLI output).
 
