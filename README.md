@@ -5,7 +5,7 @@
 **Cybersecurity Specialist · SOC Analyst · Software Engineer**
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-View%20Portfolio-0E6E63?style=for-the-badge)](https://zainab-nooh.onrender.com/)
-[![Resume](https://img.shields.io/badge/Resume-View%20PDF-33495C?style=for-the-badge)](https://drive.google.com/file/d/1a_RI9CV_i48g7-3HihH4BzEk1s9xAHlN/view?usp=drive_link)
+[![Resume](https://img.shields.io/badge/Resume-View%20PDF-33495C?style=for-the-badge)](https://drive.google.com/file/d/1bOR1UxDKiZlyOlr9pj3MC3_SzHA0wAHA/view?usp=sharing)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zainab-h-nooh/)
 
 </div>
