@@ -85,6 +85,6 @@ Hosted free on [Render](https://render.com) as a Static Site — build command e
 
 ## Contact
 
-Open to cybersecurity CoOp / internship opportunities starting **September 2026**.
+
 
 📧 [zain3b.nooh@gmail.com](mailto:zain3b.nooh@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/zainab-h-nooh/) · 💻 [GitHub](https://github.com/zainab-nooh)
